@@ -1,10 +1,21 @@
 html {
   box-sizing: border-box;
   background-color: #f0eee8;
+  font-family: Georgia, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h2, span {
+  font-family: "Dosis", sans-serif;
+}
+
+h2 {
+  color: #512200;
+  font-weight: bold;
 }
 
 .link-card {
@@ -14,6 +25,7 @@ html {
   border-radius: 8px;
   text-decoration: none;
   color: #785439;
+  padding: 1rem;
 }
 
 .link-card:hover {
@@ -25,4 +37,16 @@ html {
 }
 .link-card:hover .btn {
 background-color: #512200;
+}
+
+.btn-wrap {
+  text-align: center;
+}
+
+dl dt {
+  display: inline-block;
+}
+
+dl dd {
+  display: inline-block;
 }
