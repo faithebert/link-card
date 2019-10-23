@@ -22,31 +22,45 @@ h2 {
   display: block;
   background-color:#dcd4cd;
   border: 3px solid #785439;
-  border-radius: 8px;
+  border-radius: 3px;
   text-decoration: none;
   color: #785439;
   padding: 1rem;
+  margin: 0 0 1rem;
 }
 
 .link-card:hover {
   background-color: #cabdb2;
 }
 
-.btn {
-  background-color: #785439;
-}
 .link-card:hover .btn {
 background-color: #512200;
 }
 
 .btn-wrap {
   text-align: center;
+  margin: 0;
+}
+
+span {
+  background-color: #785439;
+  color: #fff;
+  padding: .4em .75em .5em;
+  border-radius: 8px;
 }
 
 dl dt {
   display: inline-block;
+  margin: 0;
 }
 
 dl dd {
   display: inline-block;
+  margin: 0;
+  padding: .4em .75em .5em;
+}
+
+.info {
+  border-top: 2px solid #785439;
+  border-bottom: 2px solid #785439;
 }
