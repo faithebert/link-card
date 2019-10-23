@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  display: block;
+  background-color:#dcd4cd;
+  border: 3px solid #785439;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #785439;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.btn {
+  background-color: #785439;
+}
+.link-card:hover .btn {
+background-color: #512200;
+}
