@@ -21,7 +21,7 @@ h2, span {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 .info {
@@ -29,10 +29,7 @@ p {
   padding: 1rem 0;
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
-}
-
-dl .info {
-  font-size: .875em;
+  font-size: .875rem;
 }
 
 dl dt {
@@ -61,13 +58,13 @@ dl dd {
   background-color: #cabdb2;
 }
 
-.link-card:hover span {
+.link-card:hover a {
   background-color: #512200;
 }
 
 .btn-wrap {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.125rem;
   margin-top: 1rem;
 }
 
