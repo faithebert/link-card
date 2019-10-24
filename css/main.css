@@ -25,7 +25,7 @@ p {
 }
 
 .info {
-  margin: 0;
+  margin: 0 0 1rem;
   padding: 1rem 0;
   border-top: 2px solid #785439;
   border-bottom: 2px solid #785439;
@@ -55,21 +55,20 @@ dl dd {
   text-decoration: none;
   color: #785439;
   padding: 1rem;
-  margin: 0;
 }
 
 .link-card:hover {
   background-color: #cabdb2;
 }
 
-.link-card:hover .btn {
-background-color: #512200;
+.link-card:hover span {
+  background-color: #512200;
 }
 
 .btn-wrap {
   text-align: center;
-  margin: 0;
   font-size: 1rem;
+  margin-top: 1rem;
 }
 
 span {
