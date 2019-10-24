@@ -13,7 +13,7 @@ h2, span {
   font-family: Dosis, sans-serif;
 }
 
-.btn h2 {
+.link-card h2 {
   color: #512200;
   font-weight: bold;
   font-size: 1.5rem;
@@ -24,7 +24,7 @@ p {
   font-size: 1rem;
 }
 
-.link-card {
+.info {
   margin: 0 0 1rem;
   padding: 1rem 0;
   border-top: 2px solid #9a816d;
@@ -44,7 +44,7 @@ dl dd {
   font-style: italic;
 }
 
-.btn {
+.link-card {
   display: block;
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
@@ -54,11 +54,11 @@ dl dd {
   padding: 1rem;
 }
 
-.btn:hover {
+.link-card:hover {
   background-color: #cabdb2;
 }
 
-.btn:hover span {
+.link-card:hover span {
   background-color: #512200;
 }
 
