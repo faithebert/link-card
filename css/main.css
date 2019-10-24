@@ -10,10 +10,10 @@ html {
 }
 
 h2, span {
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
 }
 
-h2 {
+.link-card h2 {
   color: #512200;
   font-weight: bold;
   font-size: 1.5rem;
@@ -27,8 +27,8 @@ p {
 .info {
   margin: 0 0 1rem;
   padding: 1rem 0;
-  border-top: 2px solid #785439;
-  border-bottom: 2px solid #785439;
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
 }
 
 dl .info {
@@ -49,8 +49,8 @@ dl dd {
 
 .link-card {
   display: block;
-  background-color:#dcd4cd;
-  border: 3px solid #785439;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
   border-radius: 3px;
   text-decoration: none;
   color: #785439;
