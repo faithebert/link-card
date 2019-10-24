@@ -16,6 +16,35 @@ h2, span {
 h2 {
   color: #512200;
   font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+.info {
+  margin: 0;
+  padding: 1rem 0;
+  border-top: 2px solid #785439;
+  border-bottom: 2px solid #785439;
+}
+
+dl .info {
+  font-size: .875em;
+}
+
+dl dt {
+  display: inline-block;
+  margin-right: 7em;
+  width: 2em;
+}
+
+dl dd {
+  display: inline-block;
+  margin-left: 0;
+  font-style: italic;
 }
 
 .link-card {
@@ -26,7 +55,7 @@ h2 {
   text-decoration: none;
   color: #785439;
   padding: 1rem;
-  margin: 0 0 1rem;
+  margin: 0;
 }
 
 .link-card:hover {
@@ -40,6 +69,7 @@ background-color: #512200;
 .btn-wrap {
   text-align: center;
   margin: 0;
+  font-size: 1rem;
 }
 
 span {
@@ -47,20 +77,4 @@ span {
   color: #fff;
   padding: .4em .75em .5em;
   border-radius: 8px;
-}
-
-dl dt {
-  display: inline-block;
-  margin: 0;
-}
-
-dl dd {
-  display: inline-block;
-  margin: 0;
-  padding: .4em .75em .5em;
-}
-
-.info {
-  border-top: 2px solid #785439;
-  border-bottom: 2px solid #785439;
 }
